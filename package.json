@@ -1,11 +1,16 @@
 {
-  "name": "portfolio_api_heroku",
+  "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Dance API",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Anton Bäckström",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mysql": "^2.15.0"
+  }
 }

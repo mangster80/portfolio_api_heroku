@@ -25,7 +25,7 @@ connection.connect(err => {
 
 // console.log(connection);
 
-app.use(cors());
+app.use(cors);
 
 app.get('/', (req, res) => {
   res.send('go to /guestbook to se posts')

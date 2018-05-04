@@ -73,7 +73,7 @@ app.get('/guestbook', (req, res) => {
 })
 
 app.listen(process.env.PORT || 4000, () => {
-  console.log(`Server listening to port 4000`);
+  console.log(`Server started!!`);
 });
 
 // mysql -h guestbook.cj2oasnjjkll.us-east-2.rds.amazonaws.com -P 3306 -u Magnus
